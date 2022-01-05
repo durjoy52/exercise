@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+.title {
+  text-align: center;
+}
+.top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-side {
+  width: 50%;
+}
+.map-bd img {
+  width: 400px;
+}
+.details {
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(40deg, green, red, green);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: ease-in-out;
+}
+.division-section {
+  width: 90%;
+  text-align: center;
+}
+.details:hover {
+  background-image: linear-gradient(45deg, red, green, red);
+}
+.all-division {
+  display: flex;
+  justify-content: space-around;
+}
+
+.divi img {
+  width: 100%;
+  text-align: right;
+}
+.dhaka {
+  width: 300px;
+  /* border: 1px solid lightgray; */
+  box-shadow: 4px 4px 10px dimgray;
+  border-radius: 10px;
+  text-align: center;
+}
+.btn {
+  padding: 7px 10px;
+  color: #fff;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  margin: 2rem;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+.description {
+  padding: 10px;
+}
+.pop {
+  text-align: left;
+}
+.footer-content {
+  margin-top: 50px;
+  text-align: center;
+}
